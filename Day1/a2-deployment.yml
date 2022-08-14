@@ -4,7 +4,7 @@ metadata:
  name: nginx-deploy
  labels:
   app: web
- kind: frontend
+  kind: frontend
 spec:
  template:
   metadata:
@@ -14,7 +14,7 @@ spec:
     type: frontend
  spec:
   containers:
-   - name: nginx-deploy
+   - name: nginx-deploy.
      image: nginx:alpine
  replicas: 3
  selector:
