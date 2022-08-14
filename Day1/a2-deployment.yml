@@ -12,10 +12,10 @@ spec:
    labels:
     app: myFirstPod
     type: frontend
- spec:
-  containers:
-   - name: nginx-deploy.
-     image: nginx:alpine
+  spec:
+   containers:
+    - name: nginx-deploy
+      image: nginx:alpine
  replicas: 3
  selector:
   matchLabels:
